@@ -37,5 +37,8 @@ public class ConexionController {
 
 	}
 	
+	public ResponseEntity<Object> updateEscalaSegmento(
+			@RequestBody Map<Integer, EscalasAdicionales> escalas, @PathVariable Integer idsegmento){
+
 	
 }
